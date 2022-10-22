@@ -1,4 +1,28 @@
-html, body {
+.navDiv {
   height: 100%;
-  width: 100%;
+  width: 0.1%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+.navLinks {
+  display:none;
+  height: 10%;
+  width: 5%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  border-radius: 0px 20px 20px 0px;
+  /*Temporary*/
+  background: #ffffff00;
+  /* Add the blur effect */
+  backdrop-filter: blur(10px);
+}
+.navDiv:hover + .navLinks {
+  display:block;
+}
+.navLinks:hover {
+  display:block;
 }
