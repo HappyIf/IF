@@ -20,9 +20,9 @@
   /* Add the blur effect */
   backdrop-filter: blur(10px);
 }
-.navDiv:hover + .navLinks {
+/*.navDiv:hover + .navLinks {
   display:block;
 }
 .navLinks:hover {
   display:block;
-}
+}*/
